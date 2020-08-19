@@ -15,6 +15,7 @@ src: url(C:\Users\Andras Karunaharan\Test-Repo\CSS\Font\libertinus\LibertinusSer
 h1 {color: rgba(220, 20, 60, 0.329);
     font-family: 'Roboto', sans-serif;;
 text-align: center;
+position: fixed;
 }
 h3 {color: rgba(113, 20, 220, 0.329);
     font-family: 'Roboto', sans-serif;;
@@ -42,11 +43,18 @@ p {color: darkgrey;
 font-size: 16px;
 font-family: "Test Italic";
 src: url(C:\Users\Andras Karunaharan\Test-Repo\CSS\Font\libertinus\LibertinusSerif-Italic.otf);
-text-align: :left;
+text-align :left
 text-transform: capitalize;
 line-height: normal;
 font-weight: 200px 
 
 }
-img {width: 200px; height: 200px;
+img {width: 14%; height: 14%;
+    box-shadow: cadetblue;
+    margin: 2%   ;
+
+}
+#IMG-01 {
+    display: block;
+    position: ;
 }
