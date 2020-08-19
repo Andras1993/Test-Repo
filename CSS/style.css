@@ -1,23 +1,52 @@
+html
+{text-transform:initial ;
+margin: 10px
+;}
+
+
 @font-face
 {font-family: "Test";
 src: url(Font\libertinus\LibertinusKeyboard-Regular.otf
-Font\libertinus\LibertinusMath-Regular.otf
-Font\libertinus\LibertinusMono-Regular.otf
-Font\libertinus\LibertinusSans-Bold.otf
-Font\libertinus\LibertinusSans-Italic.otf
-Font\libertinus\LibertinusSans-Regular.otf
-Font\libertinus\LibertinusSerif-Bold.otf
-Font\libertinus\LibertinusSerif-BoldItalic.otf
-Font\libertinus\LibertinusSerif-Italic.otf
-Font\libertinus\LibertinusSerif-Regular.otf
-Font\libertinus\LibertinusSerif-Semibold.otf
-Font\libertinus\LibertinusSerif-SemiboldItalic.otf
-Font\libertinus\LibertinusSerifDisplay-Regular.otf
-Font\libertinus\LibertinusSerifInitials-Regular.otf);
-font-weight:500;
+); font-weight: 500;
 }
-h1 {color: crimson;
-font-family: sans-serif ;}
+@font-face
+{font-family: "Test Bold";
+src: url(C:\Users\Andras Karunaharan\Test-Repo\CSS\Font\libertinus\LibertinusSerif-Bold.otf);}
+h1 {color: rgba(220, 20, 60, 0.329);
+    font-family: 'Roboto', sans-serif;;
+text-align: center;
+}
+h3 {color: rgba(113, 20, 220, 0.329);
+    font-family: 'Roboto', sans-serif;;
+text-align: left;
+}
+#Bio {color: rgba(220, 133, 20, 0.329);
+    font-family: 'Roboto', sans-serif;;
+text-align: left;}
+#Skills {color: rgba(20, 57, 220, 0.329);
+    font-family: 'Roboto', sans-serif;;
+text-align: left;}
+.Content {color: rgba(123, 20, 220, 0.329);
+    font-family: 'Roboto', sans-serif;
+border: solid}
+.Bold {font-weight: bold}
+.IMG-DIV {
+    background-color: blue
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 p {color: darkgrey;
-font-size: 16px;}
-img {width: 200px; height: 200px}
+font-size: 16px;
+font-family: "Test Italic";
+src: url(C:\Users\Andras Karunaharan\Test-Repo\CSS\Font\libertinus\LibertinusSerif-Italic.otf);
+text-align: :left;
+text-transform: capitalize;
+line-height: normal;
+font-weight: 200px 
+
+}
+img {width: 200px; height: 200px;
+}
