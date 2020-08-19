@@ -1,0 +1,23 @@
+@font-face
+{font-family: "Test";
+src: url(Font\libertinus\LibertinusKeyboard-Regular.otf
+Font\libertinus\LibertinusMath-Regular.otf
+Font\libertinus\LibertinusMono-Regular.otf
+Font\libertinus\LibertinusSans-Bold.otf
+Font\libertinus\LibertinusSans-Italic.otf
+Font\libertinus\LibertinusSans-Regular.otf
+Font\libertinus\LibertinusSerif-Bold.otf
+Font\libertinus\LibertinusSerif-BoldItalic.otf
+Font\libertinus\LibertinusSerif-Italic.otf
+Font\libertinus\LibertinusSerif-Regular.otf
+Font\libertinus\LibertinusSerif-Semibold.otf
+Font\libertinus\LibertinusSerif-SemiboldItalic.otf
+Font\libertinus\LibertinusSerifDisplay-Regular.otf
+Font\libertinus\LibertinusSerifInitials-Regular.otf);
+font-weight:500;
+}
+h1 {color: crimson;
+font-family: sans-serif ;}
+p {color: darkgrey;
+font-size: 16px;}
+img {width: 200px; height: 200px}
